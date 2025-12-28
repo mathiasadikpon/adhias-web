@@ -18,7 +18,7 @@ export const validateContactForm = (values) => {
   // Phone Number
   if (!values.phoneNum) {
     errors.phoneNum = "Required";
-  } else if (!/^\d{10,15}$/.test(values.phoneNum.replace(/\D/g, ""))) {
+  } else if (!/^[0-9+\-() ]+$/.test(values.phoneNum)) {
     errors.phoneNum = "Invalid phone number";
   }
 
@@ -27,6 +27,11 @@ export const validateContactForm = (values) => {
     errors.email = "Required";
   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
     errors.email = "Invalid email address";
+  }
+
+  // Feedback
+  if (!values.feedback) {
+    errors.feedback = "Feedback is required";
   }
 
   return errors;
