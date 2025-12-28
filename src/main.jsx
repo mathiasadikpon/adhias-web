@@ -1,22 +1,24 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
+import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 
+import App from "./App";
+import { store } from "./app/store";
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-social/bootstrap-social.css";
-import "font-awesome/css/font-awesome.min.css";
-
-import "typeface-lobster";
-import "typeface-open-sans";
-
 import "./styles/index.css";
 import "./styles/App.css";
 
-createRoot(document.getElementById("root")).render(
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
   </StrictMode>
 );

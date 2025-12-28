@@ -1,42 +1,131 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* =========================
+   Body & Sections
+   ========================= */
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Open Sans", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* =========================
+   Headings
+   ========================= */
+
+h1,
+h2,
+h3,
+.card-title {
+  font-family: "Lobster", cursive;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  color: #3046c5;
+  margin-bottom: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* =========================
+   Navbar & Header
+   ========================= */
+
+.navbar-dark {
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  margin-bottom: 2rem;
+  min-height: 8rem;
 }
 
-.card {
-  padding: 2em;
+.navbar-brand img {
+  max-width: 4rem;
+  height: auto;
+  margin-right: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+/* =========================
+   Row Content & Cards
+   ========================= */
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge #ddd;
+  min-height: 200px;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.card-img-overlay .card-title {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+.site-footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
+  margin-top: 2rem;
+}
+
+/* =========================
+   Page Transitions
+   ========================= */
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+
+/* =========================
+   Buttons & Links
+   ========================= */
+
+.btn-primary {
+  background-color: #3046c5;
+  border-color: #3046c5;
+}
+
+.btn-primary:hover {
+  background-color: #1f2f8a;
+  border-color: #1f2f8a;
+}
+
+/* =========================
+   Misc Utilities
+   ========================= */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconbutton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.iconbutton svg {
+  width: 60px;
+  height: 60px;
 }
