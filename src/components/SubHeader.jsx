@@ -1,30 +1,25 @@
-import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
+import { Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
 import { Link } from "react-router-dom";
 
-const SubHeader = ({ current, detail = false }) => {
+const SubHeader = ({ current, detail }) => {
   return (
-    <Container className="my-3">
-      <Row>
-        <Col>
-          {/* Breadcrumb navigation */}
-          <Breadcrumb>
+    <Row className="mb-3">
+      <Col>
+        <Breadcrumb>
+          <BreadcrumbItem>
+            <Link to="/">Home</Link>
+          </BreadcrumbItem>
+          {detail && (
             <BreadcrumbItem>
-              <Link to="/">Home</Link>
+              <Link to="/projects">Projects</Link>
             </BreadcrumbItem>
-            {detail && (
-              <BreadcrumbItem>
-                <Link to="/">Back</Link>
-              </BreadcrumbItem>
-            )}
-            <BreadcrumbItem active>{current}</BreadcrumbItem>
-          </Breadcrumb>
-
-          {/* Page title */}
-          <h2>{current}</h2>
-          <hr />
-        </Col>
-      </Row>
-    </Container>
+          )}
+          <BreadcrumbItem active>{current}</BreadcrumbItem>
+        </Breadcrumb>
+        <h2>{current}</h2>
+        <hr />
+      </Col>
+    </Row>
   );
 };
 

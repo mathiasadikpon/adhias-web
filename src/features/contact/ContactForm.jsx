@@ -1,13 +1,13 @@
 import { Button, Label, Col, FormGroup } from "reactstrap";
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import { validateContactForm } from "../../utils/validateContactForm"; // we'll create this next
+import { validateContactForm } from "../../utils/validateContactForm"; // create this later
 
 const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
-    console.log("Form Values:", values);
-    console.log("JSON Format:", JSON.stringify(values));
-    alert("Thank you for your feedback!");
+    console.log("Form values:", values);
+    console.log("JSON format:", JSON.stringify(values));
     resetForm();
+    alert("Thank you for your feedback!");
   };
 
   return (
@@ -31,15 +31,13 @@ const ContactForm = () => {
           </Label>
           <Col md="10">
             <Field
-              className="form-control"
               name="firstName"
               placeholder="First Name"
+              className="form-control"
             />
-            <ErrorMessage
-              name="firstName"
-              component="div"
-              className="text-danger"
-            />
+            <ErrorMessage name="firstName">
+              {(msg) => <p className="text-danger">{msg}</p>}
+            </ErrorMessage>
           </Col>
         </FormGroup>
 
@@ -49,15 +47,13 @@ const ContactForm = () => {
           </Label>
           <Col md="10">
             <Field
-              className="form-control"
               name="lastName"
               placeholder="Last Name"
+              className="form-control"
             />
-            <ErrorMessage
-              name="lastName"
-              component="div"
-              className="text-danger"
-            />
+            <ErrorMessage name="lastName">
+              {(msg) => <p className="text-danger">{msg}</p>}
+            </ErrorMessage>
           </Col>
         </FormGroup>
 
@@ -67,15 +63,13 @@ const ContactForm = () => {
           </Label>
           <Col md="10">
             <Field
-              className="form-control"
               name="phoneNum"
               placeholder="Phone"
+              className="form-control"
             />
-            <ErrorMessage
-              name="phoneNum"
-              component="div"
-              className="text-danger"
-            />
+            <ErrorMessage name="phoneNum">
+              {(msg) => <p className="text-danger">{msg}</p>}
+            </ErrorMessage>
           </Col>
         </FormGroup>
 
@@ -84,12 +78,10 @@ const ContactForm = () => {
             Email
           </Label>
           <Col md="10">
-            <Field className="form-control" name="email" placeholder="Email" />
-            <ErrorMessage
-              name="email"
-              component="div"
-              className="text-danger"
-            />
+            <Field name="email" placeholder="Email" className="form-control" />
+            <ErrorMessage name="email">
+              {(msg) => <p className="text-danger">{msg}</p>}
+            </ErrorMessage>
           </Col>
         </FormGroup>
 
@@ -99,7 +91,7 @@ const ContactForm = () => {
             May we contact you?
           </Label>
           <Col md="4">
-            <Field className="form-control" name="contactType" as="select">
+            <Field name="contactType" as="select" className="form-control">
               <option>By Phone</option>
               <option>By Email</option>
             </Field>
@@ -112,10 +104,10 @@ const ContactForm = () => {
           </Label>
           <Col md="10">
             <Field
-              className="form-control"
               name="feedback"
               as="textarea"
               rows="8"
+              className="form-control"
             />
           </Col>
         </FormGroup>
