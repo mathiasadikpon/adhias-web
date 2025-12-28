@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
 import SubHeader from "../components/SubHeader";
-import ProjectsList from "../features/projects/ProjectsList"; // placeholder component
+import ProjectsList from "../features/projects/ProjectsList";
 
 const ProjectsPage = () => {
   return (
