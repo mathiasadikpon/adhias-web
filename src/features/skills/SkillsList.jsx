@@ -1,25 +1,21 @@
-import { Card, CardBody, CardTitle, Col, Row } from "reactstrap";
+import React from "react";
+import SkillCard from "./SkillCard";
+import { Row, Col } from "reactstrap";
 
 const skills = [
-  { id: 1, name: "HTML", experience: "2 years experience" },
-  { id: 2, name: "JavaScript", experience: "3 years experience" },
-  { id: 3, name: "Java", experience: "4 years experience" },
-  { id: 4, name: "React", experience: "4 years experience" },
-  { id: 5, name: "Node.js", experience: "4 years experience" },
-  { id: 6, name: "CSS", experience: "4 years experience" },
+  { name: "React", experience: "4 years", image: "/assets/images/react.png" },
+  { name: "JavaScript", experience: "3 years", image: "/assets/images/js.png" },
+  { name: "Node.js", experience: "4 years", image: "/assets/images/node.png" },
+  { name: "HTML", experience: "4 years", image: "/assets/images/html.png" },
+  { name: "CSS", experience: "4 years", image: "/assets/images/css.png" },
 ];
 
 const SkillsList = () => {
   return (
-    <Row className="row-content">
-      {skills.map((skill) => (
-        <Col sm="6" md="4" lg="3" key={skill.id} className="mb-4">
-          <Card className="h-100 text-center shadow-sm">
-            <CardBody>
-              <CardTitle tag="h6">{skill.name}</CardTitle>
-              <p className="text-muted">{skill.experience}</p>
-            </CardBody>
-          </Card>
+    <Row className="justify-content-center">
+      {skills.map((skill, index) => (
+        <Col key={index} xs="6" sm="4" md="3" lg="2">
+          <SkillCard skill={skill} />
         </Col>
       ))}
     </Row>
