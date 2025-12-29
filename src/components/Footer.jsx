@@ -53,16 +53,13 @@ const Footer = () => {
           </Col>
 
           <Col sm="4" className="text-center">
-            <a role="button" className="btn btn-link" href="tel:+1234567890">
-              <i className="fa fa-phone" /> +1 (234) 567-890
-            </a>
-            <br />
+            <h5>Contact</h5>
             <a
               role="button"
               className="btn btn-link"
-              href="mailto:youremail@example.com"
+              href="mailto:mathiasadikpon@gmail.com"
             >
-              <i className="fa fa-envelope-o" /> youremail@example.com
+              <i className="fa fa-envelope-o" /> mathiasadikpon@gmail.com
             </a>
           </Col>
         </Row>
