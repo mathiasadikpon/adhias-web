@@ -1,37 +1,43 @@
-import { Card, CardBody, CardTitle, CardText, Col, Row } from "reactstrap";
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import { Row, Col } from "reactstrap";
 
 const projects = [
   {
-    id: 1,
-    title: "Web Calculator",
+    name: "Web Calculator",
     description:
-      "A sophisticated web-based calculator with advanced functionality using JavaScript, HTML, and CSS.",
+      "A sophisticated web-based calculator using JavaScript, HTML, CSS.",
+    image: "calculator.png",
+    link: "https://github.com/yourusername/web-calculator",
   },
   {
-    id: 2,
-    title: "Lehman App",
+    name: "Lehman App",
     description:
-      "A student-focused app for Lehman College featuring course management, weather, and transportation integration.",
+      "Course management app for Lehman College students, with weather & transport integration.",
+    image: "lehmanapp.png",
+    link: "https://github.com/yourusername/lehman-app",
   },
   {
-    id: 3,
-    title: "Tip Calculator",
-    description:
-      "A mobile-friendly app to calculate tips and split bills accurately among multiple users.",
+    name: "Tip Calculator",
+    description: "Mobile app to calculate tips and split bills among parties.",
+    image: "tipcalc.png",
+    link: "https://github.com/yourusername/tip-calculator",
   },
 ];
 
 const ProjectsList = () => {
   return (
-    <Row className="row-content">
-      {projects.map((project) => (
-        <Col md="6" lg="4" key={project.id} className="mb-4">
-          <Card className="h-100 shadow-sm">
-            <CardBody>
-              <CardTitle tag="h5">{project.title}</CardTitle>
-              <CardText>{project.description}</CardText>
-            </CardBody>
-          </Card>
+    <Row className="justify-content-center g-4">
+      {projects.map((project, index) => (
+        <Col
+          key={index}
+          xs="12"
+          sm="6"
+          md="4"
+          lg="3"
+          className="d-flex justify-content-center"
+        >
+          <ProjectCard project={project} />
         </Col>
       ))}
     </Row>
