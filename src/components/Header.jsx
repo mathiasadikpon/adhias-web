@@ -8,7 +8,7 @@ import {
   NavItem,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import Logo from "../assets/images/logo.png"; // add your logo here
+import Logo from "/images/logo.png"; // add your logo here
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
