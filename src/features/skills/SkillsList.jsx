@@ -12,9 +12,16 @@ const skills = [
 
 const SkillsList = () => {
   return (
-    <Row className="justify-content-center g-3">
+    <Row className="justify-content-center">
       {skills.map((skill, index) => (
-        <Col key={index} xs="6" sm="4" md="3" lg="2">
+        <Col
+          key={index}
+          xs="12"
+          sm="6"
+          md="4"
+          lg="2"
+          className="d-flex justify-content-center"
+        >
           <SkillCard skill={skill} />
         </Col>
       ))}
