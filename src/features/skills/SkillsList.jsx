@@ -4,10 +4,10 @@ import { Row, Col } from "reactstrap";
 
 const skills = [
   { name: "React", experience: "4 years", image: "react.png" },
-  { name: "JavaScript", experience: "3 years", image: "js.png" },
+  { name: "JavaScript", experience: "5 years", image: "js.png" },
   { name: "Node.js", experience: "4 years", image: "node.png" },
-  { name: "HTML", experience: "4 years", image: "html.png" },
-  { name: "CSS", experience: "4 years", image: "css.png" },
+  { name: "HTML", experience: "5 years", image: "html.png" },
+  { name: "CSS", experience: "5 years", image: "css.png" },
 ];
 
 const SkillsList = () => {
