@@ -11,25 +11,19 @@ const ContactPage = () => {
         <Col sm="4">
           <h5>My Address</h5>
           <address>
-            1 Your Street
-            <br />
-            Your City, State ZIP
+            Bronx, NY 10457
             <br />
             U.S.A.
           </address>
         </Col>
 
         <Col>
-          <a role="button" className="btn btn-link" href="tel:+1234567890">
-            <i className="fa fa-phone" /> +1 (234) 567-890
-          </a>
-          <br />
           <a
             role="button"
             className="btn btn-link"
-            href="mailto:youremail@example.com"
+            href="mailto:mathiasadikpon@gmail.com"
           >
-            <i className="fa fa-envelope-o" /> youremail@example.com
+            <i className="fa fa-envelope-o" /> mathiasadikpon@gmail.com
           </a>
         </Col>
       </Row>
