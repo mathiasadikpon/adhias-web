@@ -17,7 +17,7 @@ const Header = () => {
     <Navbar dark color="primary" expand="md" sticky="top">
       <NavbarBrand href="/" className="ms-3 d-flex align-items-center">
         <img src={Logo} alt="Logo" className="me-2" width="50" />
-        <h1 className="mb-0">Adhias</h1>
+        <h1 className="mb-0">Mathias <Adikpon></Adikpon></h1>
       </NavbarBrand>
 
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
