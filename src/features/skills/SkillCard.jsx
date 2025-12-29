@@ -8,7 +8,7 @@ const SkillCard = ({ skill }) => {
     <Card className="m-2 skill-card" style={{ width: "12rem" }}>
       <CardImg
         top
-        src={`/images/${"img.jpg"}`}
+        src={`/images/${image}`}
         alt={name}
         style={{ height: "100px", padding: "1rem" }}
       />

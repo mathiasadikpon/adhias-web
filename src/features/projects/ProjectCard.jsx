@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
       {image && (
         <CardImg
           top
-          src={`/images/${image}`}
+          src="/images/img.jpg" //{`/images/${image}`}
           alt={name}
           style={{ height: "120px", objectFit: "cover" }}
         />
