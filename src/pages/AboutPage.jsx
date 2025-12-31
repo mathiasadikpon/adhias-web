@@ -22,7 +22,13 @@ const AboutPage = () => {
       <Row className="row-content">
         <Col sm="6">
           <h3>My Mission</h3>
-          <p></p>
+          <p>
+            My mission is to leverage software engineering and mathematical
+            reasoning to build innovative, accessible, and reliable digital
+            solutions. I aim to contribute to meaningful projects that solve
+            complex problems, improve systems, and deliver value to users and
+            organizations.
+          </p>
         </Col>
 
         <Col sm="6">
@@ -36,7 +42,9 @@ const AboutPage = () => {
                 <dd className="col-6">4+</dd>
 
                 <dt className="col-6">Languages</dt>
-                <dd className="col-6">Java, Python, C++, JavaScript, R</dd>
+                <dd className="col-6">
+                  Java · Python · C++ · JavaScript · SQL · R · HTML · CSS
+                </dd>
 
                 <dt className="col-6">Frameworks</dt>
                 <dd className="col-6">React, Node.js, Bootstrap</dd>
