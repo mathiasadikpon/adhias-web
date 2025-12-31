@@ -5,23 +5,24 @@ const AboutPage = () => {
   return (
     <Container>
       <SubHeader current="About Me" />
+      <p>
+        Hi, I’m Mathias Adikpon, a technology professional with a strong
+        background in Computer Science and Mathematics. I enjoy building
+        efficient, user-focused software solutions by combining solid
+        engineering principles with analytical problem-solving. I am proficient
+        in Java, Python, C++, SQL, HTML, CSS, JavaScript, and R, and experienced
+        in developing web and application solutions using modern tools and
+        frameworks. My academic foundation in advanced mathematics—including
+        calculus, linear algebra, trigonometry, and geometry—strengthens my
+        ability to design reliable, scalable, and optimized systems. I’m
+        passionate about continuous learning, innovation, and creating
+        technology that has real-world impact.
+      </p>
 
       <Row className="row-content">
         <Col sm="6">
           <h3>My Mission</h3>
-          <p>
-            Hi, I’m Mathias Adikpon, a technology professional with a strong
-            background in Computer Science and Mathematics. I enjoy building
-            efficient, user-focused software solutions by combining solid
-            engineering principles with analytical problem-solving. I am
-            proficient in Java, Python, C++, SQL, HTML, CSS, JavaScript, and R,
-            and experienced in developing web and application solutions using
-            modern tools and frameworks. My academic foundation in advanced
-            mathematics—including calculus, linear algebra, trigonometry, and
-            geometry—strengthens my ability to design reliable, scalable, and
-            optimized systems. I’m passionate about continuous learning,
-            innovation, and creating technology that has real-world impact.
-          </p>
+          <p></p>
         </Col>
 
         <Col sm="6">
