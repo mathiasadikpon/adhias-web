@@ -47,11 +47,13 @@ const AboutPage = () => {
                 </dd>
 
                 <dt className="col-6">Frameworks</dt>
-                <dd className="col-6">React, Node.js, Bootstrap</dd>
+                <dd className="col-6">
+                  React · Node.js · Bootstrap · Git · REST APIs · Databases
+                </dd>
 
                 <dt className="col-6">Education</dt>
                 <dd className="col-6">
-                  Advanced Mathematics & Computer Science
+                  Computer Science & Advanced Mathematics Magna Cum Laude
                 </dd>
               </dl>
             </CardBody>
