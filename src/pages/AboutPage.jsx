@@ -10,12 +10,17 @@ const AboutPage = () => {
         <Col sm="6">
           <h3>My Mission</h3>
           <p>
-            Hi, I'm Mathias Adikpon. I am proficient in programming languages
-            such as Java, Python, C++, SQL, HTML, CSS, JavaScript, and R. In
-            addition, I have a strong foundation in advanced mathematics,
-            including calculus, linear algebra, trigonometry, and geometry. I
-            aim to leverage my technical skills and mathematical expertise to
-            contribute to innovative projects and create meaningful solutions.
+            Hi, I’m Mathias Adikpon, a technology professional with a strong
+            background in Computer Science and Mathematics. I enjoy building
+            efficient, user-focused software solutions by combining solid
+            engineering principles with analytical problem-solving. I am
+            proficient in Java, Python, C++, SQL, HTML, CSS, JavaScript, and R,
+            and experienced in developing web and application solutions using
+            modern tools and frameworks. My academic foundation in advanced
+            mathematics—including calculus, linear algebra, trigonometry, and
+            geometry—strengthens my ability to design reliable, scalable, and
+            optimized systems. I’m passionate about continuous learning,
+            innovation, and creating technology that has real-world impact.
           </p>
         </Col>
 
