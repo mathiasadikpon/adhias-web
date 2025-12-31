@@ -53,7 +53,8 @@ const AboutPage = () => {
 
                 <dt className="col-6">Education</dt>
                 <dd className="col-6">
-                  Computer Science & Advanced Mathematics{"\n"} Magna Cum Laude
+                  Computer Science & Advanced Mathematics Degrees, Magna Cum
+                  Laude
                 </dd>
               </dl>
             </CardBody>
