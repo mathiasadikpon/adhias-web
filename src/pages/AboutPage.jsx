@@ -48,7 +48,8 @@ const AboutPage = () => {
 
                 <dt className="col-6">Frameworks</dt>
                 <dd className="col-6">
-                  React · Node.js · Bootstrap · Git · REST APIs · Databases
+                  React · Node.js · React Native · Bootstrap · Git · REST APIs ·
+                  Databases
                 </dd>
 
                 <dt className="col-6">Education</dt>
