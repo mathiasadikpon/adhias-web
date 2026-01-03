@@ -8,7 +8,7 @@ const projects = [
     description:
       "A sophisticated web-based calculator using JavaScript, HTML, CSS.",
     image: "calculator.png",
-    link: "https://github.com/yourusername/web-calculator",
+    link: "https://github.com/mathiasadikpon/tip-calculator-.git",
   },
   {
     name: "Lehman App",
