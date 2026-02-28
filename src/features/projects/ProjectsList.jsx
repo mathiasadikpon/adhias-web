@@ -15,13 +15,14 @@ const projects = [
     description:
       "Course management app for Lehman College students, with weather & transport integration.",
     image: "lehmanapp.png",
-    link: "https://github.com/yourusername/lehman-app",
+    //link: "https://github.com/mathiasadikpon/lehman-app",
+    link: "https://youtu.be/cvb3rLF4baU",
   },
   {
     name: "Tip Calculator",
     description: "Mobile app to calculate tips and split bills among parties.",
     image: "tipcalc.png",
-    link: "https://github.com/yourusername/tip-calculator",
+    //link: "https://github.com/mathiasadikpon/tip-calculator",
   },
 ];
 
