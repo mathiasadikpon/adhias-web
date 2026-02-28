@@ -10,7 +10,7 @@ const CertificateCard = ({ certificate }) => {
         <CardImg
           top
           // src={`/images/${image}`}
-          src="/images/cert_temlate.png" // Placeholder image for certificates
+          src="/images/cert_template.png" // Placeholder image for certificates
           alt={title}
           style={{ height: "140px", objectFit: "cover" }}
         />
