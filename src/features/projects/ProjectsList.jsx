@@ -70,24 +70,24 @@ const projects = [
     link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
   },
   {
-    name: "MP5 Foodie App",
+    name: "Foodie App",
     description:
       "A foodie application project with physical device demonstration.",
     image: "foodieapp.png",
     link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
   },
   {
-    name: "MP4 Tip Calculator with menu",
+    name: "Tip Calculator with menu",
     description:
       "Extended Tip Calculator project featuring a custom menu system.",
     image: "tipcalc_menu.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
+    link: "https://youtu.be/gLP8kYH-aVI",
   },
   {
-    name: "MP3 Score Counter",
+    name: "Score Counter",
     description: "A score tracking application project.",
     image: "scorecounter.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
+    link: "https://youtu.be/CY4Dir1YTS4",
   },
   {
     name: "Foodie App",
