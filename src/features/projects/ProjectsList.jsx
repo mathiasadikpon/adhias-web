@@ -52,7 +52,7 @@ const projects = [
     description:
       "A foodie application project with physical device demonstration.",
     image: "foodieapp.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
+    link: "https://youtu.be/MvncBR_RiZw",
   },
   {
     name: "Tip Calculator with menu",
@@ -66,13 +66,6 @@ const projects = [
     description: "A score tracking application project.",
     image: "scorecounter.png",
     link: "https://youtu.be/CY4Dir1YTS4",
-  },
-  {
-    name: "Foodie App",
-    description:
-      "A foodie application project with physical device demonstration.",
-    image: "foodieapp.png",
-    link: "https://youtu.be/MvncBR_RiZw",
   },
 
   // Add Data Visualization projects as needed
