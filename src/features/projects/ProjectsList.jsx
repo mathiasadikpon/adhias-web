@@ -55,10 +55,18 @@ const projects = [
     link: "https://youtu.be/RCE6ggiSYgs",
   },
   {
-    name: "Mathias Project 1",
-    description: "Personal development project showcase.",
-    image: "mathiasproject1.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw", // Replace with correct ID if different
+    name: "Class Project: Data visualization cars dataset",
+    description:
+      "Data visualization project using a cars dataset for class demonstration.",
+    image: "dataviz.png",
+    link: "https://youtu.be/e6auyPK6c2w",
+  },
+  {
+    name: "Class Project: Data visualization food security dataset",
+    description:
+      "Data visualization project using a food security dataset for class demonstration.",
+    image: "dataviz.png",
+    link: "https://youtu.be/aQw_O99sD9Y",
   },
   {
     name: "MP6 I AM HOME",
@@ -91,6 +99,41 @@ const projects = [
     description: "Project for CMP430 course requirements.",
     image: "cmp430.png",
     link: "https://youtu.be/KkZgsSXqsRY",
+  },
+  // Add Mathematics projects as needed
+  {
+    name: "Mathematics: Find the Fourier Siries of Functions",
+    description:
+      "Exploration of finding Fourier series for various functions in mathematical analysis.",
+    image: "fourier_series.png",
+    link: "https://youtu.be/XLVZthT3-Os",
+  },
+  {
+    name: "Mathematics: Orthogonal Systems of Functions",
+    description:
+      "Exploration of orthogonal systems of functions in mathematical analysis.",
+    image: "orthogonal.png",
+    link: "https://youtu.be/9s8n2Xo7l3E",
+  },
+  {
+    name: "Mathematics: Convergence of Trigonometric Fourier Series",
+    description:
+      "Exploration of the convergence properties of trigonometric Fourier series.",
+    image: "convergence.png",
+    link: "https://youtu.be/B1AJw7tKG9g",
+  },
+  {
+    name: "Trigonometric Series with Decreasing Coefficients",
+    description:
+      "Exploration of trigonometric series with decreasing coefficients.",
+    image: "trigonometric.png",
+    link: "https://youtu.be/OaS1s3OvAak",
+  },
+  {
+    name: "Mathematics: Operations on Fourier Series",
+    description: "Demonstration of mathematical operations on Fourier series.",
+    image: "fourier.png",
+    link: "https://youtu.be/etQU9sYjN3E",
   },
 ];
 
