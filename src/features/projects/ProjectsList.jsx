@@ -29,13 +29,6 @@ import { Row, Col } from "reactstrap";
 
 const projects = [
   {
-    name: "Web Calculator",
-    description:
-      "A sophisticated web-based calculator using JavaScript, HTML, CSS.",
-    image: "calculator.png",
-    link: "https://github.com/mathiasadikpon/tip-calculator-.git",
-  },
-  {
     name: "Lehman App",
     description:
       "Course management app for Lehman College students, with weather & transport integration.",
@@ -46,13 +39,20 @@ const projects = [
     name: "Tip Calculator",
     description: "Mobile app to calculate tips and split bills among parties.",
     image: "tipcalc.png",
-    link: "https://youtu.be/gLP8kYH-aVI",
+    link: "https://youtu.be/Ih-sg8RdwdA",
   },
   {
     name: "JavaScript Project",
     description: "A recent JavaScript-based project demonstration.",
     image: "jsproject.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
+    link: "https://youtu.be/WdXm9kuVJvI",
+  },
+  {
+    name: "Factorization Degree 2 Eplained",
+    description:
+      "Educational video explaining factorization of degree 2 polynomials.",
+    image: "factorization.png",
+    link: "https://youtu.be/RCE6ggiSYgs",
   },
   {
     name: "Mathias Project 1",
@@ -90,7 +90,7 @@ const projects = [
     name: "MP2 CMP430",
     description: "Project for CMP430 course requirements.",
     image: "cmp430.png",
-    link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
+    link: "https://youtu.be/KkZgsSXqsRY",
   },
 ];
 
