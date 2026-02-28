@@ -26,42 +26,34 @@ const Footer = () => {
 
           <Col xs="6" sm="3" className="text-center">
             <h5>Social</h5>
-            <ul className="list-unstyled">
-              <li>
-                <a
-                  className="btn btn-social-icon btn-instagram"
-                  href="http://instagram.com/"
-                >
-                  <i className="fa fa-instagram" />
-                </a>
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="btn btn-social-icon btn-facebook"
-                  href="http://www.facebook.com/"
-                >
-                  <i className="fa fa-facebook" />
-                </a>{" "}
-              </li>
-              <li>
-                <a
-                  className="btn btn-social-icon btn-twitter"
-                  href="http://twitter.com/"
-                >
-                  <i className="fa fa-twitter" />
-                </a>{" "}
-              </li>
-              <li>
-                {" "}
-                <a
-                  className="btn btn-social-icon btn-youtube"
-                  href="http://youtube.com/"
-                >
-                  <i className="fa fa-youtube" />
-                </a>
-              </li>
-            </ul>
+            <a
+              className="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+            >
+              Instagram
+              <i className="fa fa-instagram" />
+            </a>{" "}
+            <a
+              className="btn btn-social-icon btn-facebook"
+              href="http://www.facebook.com/"
+            >
+              Facebook
+              <i className="fa fa-facebook" />
+            </a>{" "}
+            <a
+              className="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+            >
+              Twitter
+              <i className="fa fa-twitter" />
+            </a>{" "}
+            <a
+              className="btn btn-social-icon btn-youtube"
+              href="http://youtube.com/"
+            >
+              Youtube
+              <i className="fa fa-youtube" />
+            </a>
           </Col>
 
           <Col sm="4" className="text-center">
