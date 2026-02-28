@@ -36,6 +36,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
+              target="_Blank"
             >
               Instagram
               <i className="fa fa-instagram" />
