@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import ContactPage from "./pages/ContactPage";
+import CertificatesPage from "./pages/CertificatesPage";
 
 // Components
 import Header from "./components/Header";
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/certificates" element={<CertificatesPage />} />
 
           {/* Redirect unknown routes to Home */}
           <Route path="*" element={<Navigate to="/" replace />} />

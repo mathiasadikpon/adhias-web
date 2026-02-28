@@ -70,14 +70,14 @@ const projects = [
 
   // Add Data Visualization projects as needed
   {
-    name: "Class Project: Data visualization cars dataset",
+    name: "Data visualization cars dataset",
     description:
       "Data visualization project using a cars dataset for class demonstration.",
     image: "dataviz.png",
     link: "https://youtu.be/e6auyPK6c2w",
   },
   {
-    name: "Class Project: Data visualization food security dataset",
+    name: "Data visualization food security dataset",
     description:
       "Data visualization project using a food security dataset for class demonstration.",
     image: "dataviz.png",
