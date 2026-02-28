@@ -29,7 +29,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-linkedin"
               href="https://www.linkedin.com/in/mathias-adikpon-752149147/"
-              target="_Blank"
+              target="_blank"
             >
               Linkedin
               <i className="fa fa-linkedin" />
@@ -37,7 +37,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
-              target="_Blank"
+              target="_blank"
             >
               Instagram
               <i className="fa fa-instagram" />
@@ -45,7 +45,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-facebook"
               href="http://www.facebook.com/"
-              target="_Blank"
+              target="_blank"
             >
               Facebook
               <i className="fa fa-facebook" />
@@ -53,7 +53,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-twitter"
               href="http://twitter.com/"
-              target="_Blank"
+              target="_blank"
             >
               Twitter
               <i className="fa fa-twitter" />
@@ -61,7 +61,7 @@ const Footer = () => {
             <a
               className="btn btn-social-icon btn-youtube"
               href="http://youtube.com/"
-              target="_Blank"
+              target="_blank"
             >
               Youtube
               <i className="fa fa-youtube" />
