@@ -23,6 +23,7 @@ const projects = [
     description: "Mobile app to calculate tips and split bills among parties.",
     image: "tipcalc.png",
     //link: "https://github.com/mathiasadikpon/tip-calculator",
+    link: "https://youtu.be/gLP8kYH-aVI",
   },
 ];
 
