@@ -8,7 +8,7 @@ const certifications = [
     issuer: "CompTIA",
     date: "Issued Jan 22, 2026 – Valid through Jan 22, 2029",
     image: "comptia.png",
-    link: "https://verify.comptia.org",
+    link: "https://www.credly.com/badges/ba222932-09dc-425b-b7c4-5c774b119d9d/linked_in_profile",
     details:
       "Certification ID: COMP001022964037 | Exams: 220-1201 (Core 1) & 220-1202 (Core 2)",
   },
