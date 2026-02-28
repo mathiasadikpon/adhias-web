@@ -27,6 +27,13 @@ const Footer = () => {
           <Col xs="6" sm="3" className="text-center">
             <h5>Social</h5>
             <a
+              className="btn btn-social-icon btn-linkedin"
+              href="https://www.linkedin.com/in/mathias-adikpon-752149147/"
+            >
+              Linkedin
+              <i className="fa fa-linkedin" />
+            </a>
+            <a
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
             >
