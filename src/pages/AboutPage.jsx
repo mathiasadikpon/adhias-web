@@ -6,17 +6,13 @@ const AboutPage = () => {
     <Container>
       <SubHeader current="About Me" />
       <p>
-        Hi, I’m Mathias Adikpon, a technology professional with a strong
-        background in Computer Science and Mathematics. I enjoy building
-        efficient, user-focused software solutions by combining solid
-        engineering principles with analytical problem-solving. I am proficient
-        in Java, Python, C++, SQL, HTML, CSS, JavaScript, and R, and experienced
-        in developing web and application solutions using modern tools and
-        frameworks. My academic foundation in advanced mathematics—including
-        calculus, linear algebra, trigonometry, and geometry—strengthens my
-        ability to design reliable, scalable, and optimized systems. I’m
-        passionate about continuous learning, innovation, and creating
-        technology that has real-world impact.
+        Hi, I’m Mathias Adikpon, dual-certified IT Professional and Full-Stack
+        Developer with a strong academic foundation, holding a Bachelor of
+        Science in Computer Science and a Bachelor of Arts in Mathematics, both
+        earned Magna Cum Laude. Expert in hardware troubleshooting, network
+        configuration, and building scalable web/mobile applications. Proven
+        track record of bridging the gap between hardware infrastructure and
+        software engineering to solve complex technical challenges.
       </p>
 
       <Row className="row-content">
