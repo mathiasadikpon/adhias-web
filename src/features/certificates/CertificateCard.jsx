@@ -9,7 +9,8 @@ const CertificateCard = ({ certificate }) => {
       {image && (
         <CardImg
           top
-          src={`/images/${image}`}
+          // src={`/images/${image}`}
+          src="/images/cert_temlate.png"
           alt={title}
           style={{ height: "140px", objectFit: "cover" }}
         />

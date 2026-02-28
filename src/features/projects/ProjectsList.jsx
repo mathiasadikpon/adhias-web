@@ -2,31 +2,6 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Row, Col } from "reactstrap";
 
-// const projects = [
-//   {
-//     name: "Web Calculator",
-//     description:
-//       "A sophisticated web-based calculator using JavaScript, HTML, CSS.",
-//     image: "calculator.png",
-//     link: "https://github.com/mathiasadikpon/tip-calculator-.git",
-//   },
-//   {
-//     name: "Lehman App",
-//     description:
-//       "Course management app for Lehman College students, with weather & transport integration.",
-//     image: "lehmanapp.png",
-//     //link: "https://github.com/mathiasadikpon/lehman-app",
-//     link: "https://youtu.be/cvb3rLF4baU",
-//   },
-//   {
-//     name: "Tip Calculator",
-//     description: "Mobile app to calculate tips and split bills among parties.",
-//     image: "tipcalc.png",
-//     //link: "https://github.com/mathiasadikpon/tip-calculator",
-//     link: "https://youtu.be/gLP8kYH-aVI",
-//   },
-// ];
-
 const projects = [
   {
     name: "Lehman App",
