@@ -47,13 +47,8 @@ const projects = [
     image: "jsproject.png",
     link: "https://youtu.be/WdXm9kuVJvI",
   },
-  {
-    name: "Factorization Degree 2 Eplained",
-    description:
-      "Educational video explaining factorization of degree 2 polynomials.",
-    image: "factorization.png",
-    link: "https://youtu.be/RCE6ggiSYgs",
-  },
+
+  // Add Data Visualization projects as needed
   {
     name: "Class Project: Data visualization cars dataset",
     description:
@@ -95,12 +90,28 @@ const projects = [
     link: "https://youtu.be/0-9-JTLcTLXNLsSaw",
   },
   {
-    name: "MP2 CMP430",
-    description: "Project for CMP430 course requirements.",
-    image: "cmp430.png",
-    link: "https://youtu.be/KkZgsSXqsRY",
+    name: "Foodie App",
+    description:
+      "A foodie application project with physical device demonstration.",
+    image: "foodieapp.png",
+    link: "https://youtu.be/MvncBR_RiZw",
   },
+
   // Add Mathematics projects as needed
+  {
+    name: "Mathematics: Law of Cosines Explained",
+    description:
+      "Educational video explaining the Law of Cosines in trigonometry.",
+    image: "law_of_cosines.png",
+    link: "https://youtu.be/Pv9DawB0cSI",
+  },
+  {
+    name: "Factorization Degree 2 Eplained",
+    description:
+      "Educational video explaining factorization of degree 2 polynomials.",
+    image: "factorization.png",
+    link: "https://youtu.be/RCE6ggiSYgs",
+  },
   {
     name: "Mathematics: Find the Fourier Siries of Functions",
     description:
