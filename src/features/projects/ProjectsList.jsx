@@ -93,7 +93,7 @@ const projects = [
     link: "https://youtu.be/Pv9DawB0cSI",
   },
   {
-    name: "Factorization Degree 2 Eplained",
+    name: "Factorization Degree 2 Explained",
     description:
       "Educational video explaining factorization of degree 2 polynomials.",
     image: "factorization.png",
