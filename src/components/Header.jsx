@@ -7,42 +7,90 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
-import { NavLink } from "react-router-dom";
-import Logo from "/images/logo.png"; // add your logo here
+import { NavLink as RouterNavLink, Link } from "react-router-dom";
+import Logo from "/images/logo.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const toggle = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <Navbar dark color="primary" expand="md" sticky="top">
-      <NavbarBrand href="/" className="ms-3 d-flex align-items-center">
+      {/* IMPORTANT: Use Link instead of href to avoid page reload */}
+      <NavbarBrand
+        tag={Link}
+        to="/"
+        className="ms-3 d-flex align-items-center"
+        onClick={closeMenu}
+      >
         <img src={Logo} alt="Logo" className="me-2" width="50" />
-        <h1 className="mb-0">Mathias Adikpon</h1>
+        <h5 className="mb-0">Mathias Adikpon</h5>
       </NavbarBrand>
 
-      <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+      <NavbarToggler onClick={toggle} />
 
       <Collapse isOpen={menuOpen} navbar>
         <Nav className="ms-auto" navbar>
           <NavItem>
-            <NavLink className="nav-link" to="/">
+            <RouterNavLink
+              to="/"
+              className={({ isActive }) =>
+                "nav-link" + (isActive ? " active fw-bold" : "")
+              }
+              onClick={closeMenu}
+            >
               Home
-            </NavLink>
+            </RouterNavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink className="nav-link" to="/about">
+            <RouterNavLink
+              to="/about"
+              className={({ isActive }) =>
+                "nav-link" + (isActive ? " active fw-bold" : "")
+              }
+              onClick={closeMenu}
+            >
               About
-            </NavLink>
+            </RouterNavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink className="nav-link" to="/projects">
+            <RouterNavLink
+              to="/projects"
+              className={({ isActive }) =>
+                "nav-link" + (isActive ? " active fw-bold" : "")
+              }
+              onClick={closeMenu}
+            >
               Projects
-            </NavLink>
+            </RouterNavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink className="nav-link" to="/contact">
+            <RouterNavLink
+              to="/certificates"
+              className={({ isActive }) =>
+                "nav-link" + (isActive ? " active fw-bold" : "")
+              }
+              onClick={closeMenu}
+            >
+              Certificates
+            </RouterNavLink>
+          </NavItem>
+
+          <NavItem>
+            <RouterNavLink
+              to="/contact"
+              className={({ isActive }) =>
+                "nav-link" + (isActive ? " active fw-bold" : "")
+              }
+              onClick={closeMenu}
+            >
               Contact
-            </NavLink>
+            </RouterNavLink>
           </NavItem>
         </Nav>
       </Collapse>
