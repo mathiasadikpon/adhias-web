@@ -64,7 +64,6 @@ const training = [
 const CertificatesList = () => {
   return (
     <>
-      <h3 className="text-center mb-4">Certifications</h3>
       <Row className="justify-content-center g-4 mb-5">
         {certifications.map((cert, index) => (
           <Col
@@ -80,7 +79,7 @@ const CertificatesList = () => {
         ))}
       </Row>
 
-      <h3 className="text-center mb-4">Training & Professional Development</h3>
+      <h2>Training & Professional Development</h2>
       <Row className="justify-content-center g-4">
         {training.map((cert, index) => (
           <Col
