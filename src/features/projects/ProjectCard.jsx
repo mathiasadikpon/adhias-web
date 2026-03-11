@@ -2,14 +2,14 @@ import React from "react";
 import { Card, CardBody, CardTitle, CardText, CardImg } from "reactstrap";
 
 const ProjectCard = ({ project }) => {
-  const { name, description, image = "/images/img.jpg", link } = project;
+  const { name, description, image, link } = project;
 
   return (
     <Card className="m-2 project-card" style={{ width: "16rem" }}>
       {image && (
         <CardImg
           top
-          src={image}
+          src={image ? image : "/images/img.jpg"}
           alt={name}
           style={{ height: "120px", objectFit: "cover" }}
         />
