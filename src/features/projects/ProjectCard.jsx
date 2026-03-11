@@ -11,8 +11,7 @@ const ProjectCard = ({ project }) => {
         src={image ? `/images/proj_img/${image}` : "/images/img.jpg"}
         alt={name}
         style={{
-          height: "120px",
-          width: "100%",
+          height: "200px",
           objectFit: "cover",
           objectPosition: "center",
         }} // Set a fixed height for the image height: "120px",
