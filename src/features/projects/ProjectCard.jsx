@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
         top
         src={image ? `/images/proj_img/${image}` : "/images/img.jpg"}
         alt={name}
-        style={{ height: "120px", objectFit: "cover" }}
+        style={{ height: "120px" }}
       />
 
       <CardBody className="text-center">
