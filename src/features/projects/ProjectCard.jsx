@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
     <Card className="m-2 project-card" style={{ width: "16rem" }}>
       <CardImg
         top
-        src={image ? image : "/images/img.jpg"}
+        src={image ? `/images/proj_img/${image}` : "/images/img.jpg"}
         alt={name}
         style={{ height: "120px", objectFit: "cover" }}
       />
