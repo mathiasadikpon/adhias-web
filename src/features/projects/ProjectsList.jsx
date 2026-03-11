@@ -13,7 +13,7 @@ const projects = [
   {
     name: "Tip Calculator",
     description: "Mobile app to calculate tips and split bills among parties.",
-    image: "tipcalc.png",
+    // image: "tipcalc.png",
     link: "https://youtu.be/Ih-sg8RdwdA",
   },
   {
