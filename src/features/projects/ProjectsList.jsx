@@ -7,7 +7,7 @@ const projects = [
     name: "Lehman App",
     description:
       "Course management app for Lehman College students, with weather & transport integration.",
-    image: "lehmanapp.png",
+    image: "/images/project_img/lehman.jpeg",
     link: "https://youtu.be/cvb3rLF4baU",
   },
   {
