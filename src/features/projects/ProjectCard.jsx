@@ -10,14 +10,21 @@ const ProjectCard = ({ project }) => {
         top
         src={image ? `/images/proj_img/${image}` : "/images/img.jpg"}
         alt={name}
-        style={{
-          height: "120px",
-          width: "120px",
-          objectFit: "cover",
-          objectPosition: "center",
-        }} // Set a fixed height for the image height: "120px",
+        // style={{
+        //   height: "120px",
+        //   width: "120px",
+        //   objectFit: "cover",
+        //   objectPosition: "center",
+        // }} // Set a fixed height for the image height: "120px",
         // objectFit: "cover" to maintain aspect ratio and cover the area
         // objectPosition: "center" to center the image within the container
+        style={{
+          width: "100%",
+          aspectRatio: "1 / 1",
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
+        className="project-img"
       />
 
       <CardBody className="text-center">
