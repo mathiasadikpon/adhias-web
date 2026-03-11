@@ -6,14 +6,13 @@ const ProjectCard = ({ project }) => {
 
   return (
     <Card className="m-2 project-card" style={{ width: "16rem" }}>
-      {image && (
-        <CardImg
-          top
-          src={image ? image : "/images/img.jpg"}
-          alt={name}
-          style={{ height: "120px", objectFit: "cover" }}
-        />
-      )}
+      <CardImg
+        top
+        src={image ? image : "/images/img.jpg"}
+        alt={name}
+        style={{ height: "120px", objectFit: "cover" }}
+      />
+
       <CardBody className="text-center">
         <CardTitle tag="h5">{name}</CardTitle>
         <CardText>{description}</CardText>
