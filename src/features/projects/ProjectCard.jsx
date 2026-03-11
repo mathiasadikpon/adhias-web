@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
         alt={name}
         style={{
           height: "120px",
-          objectFit: "contain",
+          objectFit: "cover",
           objectPosition: "center",
         }} // Set a fixed height for the image height: "120px",
         // objectFit: "cover" to maintain aspect ratio and cover the area
