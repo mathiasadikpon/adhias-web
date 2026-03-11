@@ -17,6 +17,13 @@ const projects = [
     link: "https://youtu.be/Ih-sg8RdwdA",
   },
   {
+    name: "Tip Calculator with menu",
+    description:
+      "Extended Tip Calculator project featuring a custom menu system.",
+    image: "tipcalc_menu.jpeg",
+    link: "https://youtu.be/gLP8kYH-aVI",
+  },
+  {
     name: "JavaScript Project",
     description: "A recent JavaScript-based project demonstration.",
     // image: "jsproject.png",
@@ -29,13 +36,7 @@ const projects = [
     image: "foodieapp.jpeg",
     link: "https://youtu.be/MvncBR_RiZw",
   },
-  {
-    name: "Tip Calculator with menu",
-    description:
-      "Extended Tip Calculator project featuring a custom menu system.",
-    image: "tipcalc_menu.jpeg",
-    link: "https://youtu.be/gLP8kYH-aVI",
-  },
+
   {
     name: "Score Counter",
     description: "A score tracking application project.",
