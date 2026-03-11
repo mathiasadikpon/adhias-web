@@ -13,7 +13,7 @@ const projects = [
   {
     name: "Tip Calculator",
     description: "Mobile app to calculate tips and split bills among parties.",
-    image: "tipcalc.png",
+    image: "tipcalc.jpeg",
     link: "https://youtu.be/Ih-sg8RdwdA",
   },
   {
@@ -26,20 +26,20 @@ const projects = [
     name: "Foodie App",
     description:
       "A foodie application project with physical device demonstration.",
-    // image: "foodieapp.png",
+    image: "foodieapp.jpeg",
     link: "https://youtu.be/MvncBR_RiZw",
   },
   {
     name: "Tip Calculator with menu",
     description:
       "Extended Tip Calculator project featuring a custom menu system.",
-    // image: "tipcalc_menu.png",
+    image: "tipcalc_menu.jpeg",
     link: "https://youtu.be/gLP8kYH-aVI",
   },
   {
     name: "Score Counter",
     description: "A score tracking application project.",
-    // image: "scorecounter.png",
+    image: "scorecounter.jpeg",
     link: "https://youtu.be/CY4Dir1YTS4",
   },
 
